@@ -1,0 +1,100 @@
+body{
+    margin: 100px;
+    font-family: 'Oswald', sans-serif;
+    
+}
+.container1{
+    width: 100%;
+    height: 100vh;
+    display:flex;
+
+}
+.left1{
+    width: 45%;
+    margin-right: 5%;
+       
+}
+
+
+.left1 h1{
+    font-weight: 900;
+    font-size: 3rem;
+    border-left: 2px solid rgb(43, 18, 134);
+    padding: 10px;
+    
+}
+h1 span{
+    color: coral;
+}
+.left1 a{
+    font-size: 15px;
+    color: seashell;
+    text-decoration: none;
+    background-color: rgb(184, 66, 154);
+    padding: 10px 20px;
+    display: inline-block;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+.left1 p{ 
+    letter-spacing: 1px;
+}
+.right1{
+    width: 45%;
+    margin-left: 5%;
+    
+ 
+}
+.right1 img{
+    width: 100%;
+    height: 75%;
+    
+}
+
+.second h1{
+    text-align: center;
+    font-weight: 900;
+    font-size: 3rem;
+}
+.container2{
+    width: 100%;
+    height:auto;
+    display: flex;
+}
+.left2{
+    width: 30%;
+    background-color: rgb(239, 253, 246);
+    border-radius: 10px;
+   padding: 20px;
+   margin-right: 20px;
+   word-spacing: 2px;
+    
+    
+    
+
+}
+.middle{
+    width: 30%;
+    background-color: rgb(245, 238, 241);
+    border-radius: 10px;
+   padding: 20px;
+   word-spacing: 2px;
+    
+
+}
+.right2{
+    width: 30%;
+    background-color: rgb(240, 250, 240);
+    border-radius: 10px;
+   padding: 20px;
+   margin-left: 20px;
+   word-spacing: 2px;
+    
+
+}
+.container2 img{
+    width: 30%;
+    border-radius: 10px;
+    
+   
+}
