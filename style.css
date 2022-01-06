@@ -1,13 +1,19 @@
 body{
-    margin: 100px;
+    
     font-family: 'Oswald', sans-serif;
     
+}
+.full{
+    margin: 100px;
 }
 .container1{
     width: 100%;
     height: 100vh;
     display:flex;
 
+}
+p{
+    text-align: justify;
 }
 .left1{
     width: 45%;
@@ -16,17 +22,19 @@ body{
 }
 
 
-.left1 h1{
+#header1{
     font-weight: 900;
     font-size: 3rem;
-    border-left: 2px solid rgb(43, 18, 134);
+    border-left: 3.5px solid rgb(43, 18, 134);
+    border-radius: 1px 1px 1pc 1px;
+    line-height: 18px;
     padding: 10px;
     
 }
 h1 span{
     color: coral;
 }
-.left1 a{
+.button{
     font-size: 15px;
     color: seashell;
     text-decoration: none;
@@ -47,7 +55,7 @@ h1 span{
 }
 .right1 img{
     width: 100%;
-    height: 75%;
+    height: 70%;
     
 }
 
@@ -94,7 +102,56 @@ h1 span{
 }
 .container2 img{
     width: 30%;
-    border-radius: 10px;
+    border-radius: 20px;
     
    
+}
+.left3{
+    width: 100%;
+    
+    margin: 10% 5% 5% 0;
+}
+.left3 img{
+    width: 100%;
+    height: 90%;
+   
+    
+}
+.right3 h1{
+    font-size: 40px;
+
+}
+
+.right3{
+    margin:7rem 0;
+    height: 40rem;
+
+}
+.left4 h1{
+    font-size: 50px;
+}
+.left4 p,a{
+    padding-top: 1rem;
+   
+}
+#lheader{
+    text-align: center;
+}
+.container5 ul  li{
+    list-style: none;
+
+}
+footer{
+  
+    font-family: Brush Script MT;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    color: antiquewhite;
+    background-color: rgb(44, 39, 39);
+   
+}
+footer span{
+    color: coral;
+
 }
